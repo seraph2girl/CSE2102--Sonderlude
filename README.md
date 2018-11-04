@@ -10,7 +10,8 @@ The IMIS will replace the current inefficient paper based system that are prone 
 and will provide faster reporting and information retrieval as well as more precise data management. 
 
 
--------------------------------- Sonderlude Development Team --------------------------------
+
+-------------------------------------- Sonderlude Development Team --------------------------------------------------------------
 
  		 +--------------------+-----------------------------------------+
  		 |       NAME         |   		 POSITION		|
