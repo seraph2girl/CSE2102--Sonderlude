@@ -11,7 +11,7 @@ and will provide faster reporting and information retrieval as well as more prec
 
 
 
--------------------------------------- Sonderlude Development Team --------------------------------------------------------------
+-------------------------------------------- Sonderlude Development Team ----------------------------------------------------
 
  		 	+--------------------+-----------------------------------------+
  		 	|       NAME         |   		 POSITION	       |
