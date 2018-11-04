@@ -13,21 +13,21 @@ and will provide faster reporting and information retrieval as well as more prec
 
 -------------------------------------- Sonderlude Development Team --------------------------------------------------------------
 
- 		 +--------------------+-----------------------------------------+
- 		 |       NAME         |   		 POSITION		|
- 		 +--------------------+-----------------------------------------+
-  		 |		      |					        |
- 		 | Towana Wilson      | Project Leader/ Database Administrator  |
- 		 |		      |				                |
- 		 | Kieron Abrigo      | UI Developer			        |
- 		 |		      |					        |
- 		 | Lo-Reese Cummings  | QA Leader			        |
-	  	 |		      |					        |
-  		 | Wilton Lawrence    | Back-End Developer			|
-  		 |		      |					        |
-  		 | Jornel Yearwood    | UI Developer			        |
-  		 |		      |					        |
-  		 +--------------------+-----------------------------------------+
+ 		 	+--------------------+-----------------------------------------+
+ 		 	|       NAME         |   		 POSITION	       |
+ 		 	+--------------------+-----------------------------------------+
+  		 	|		     |					       |
+ 		 	| Towana Wilson      | Project Leader/ Database Administrator  |
+ 		 	|		     |				               |
+ 		 	| Kieron Abrigo      | UI Developer			       |
+ 		 	|		     |					       |
+ 		 	| Lo-Reese Cummings  | QA Leader			       |
+	  	 	|		     |					       |
+  		 	| Wilton Lawrence    | Back-End Developer		       |
+  		 	|		     |					       |
+  		 	| Jornel Yearwood    | UI Developer			       |
+  		 	|		     |					       |
+  		 	+--------------------+-----------------------------------------+
 
 
 
