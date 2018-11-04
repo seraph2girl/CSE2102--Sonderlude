@@ -14,7 +14,7 @@ and will provide faster reporting and information retrieval as well as more prec
 -------------------------------------------- Sonderlude Development Team ----------------------------------------------------
 
  		 	+--------------------+-----------------------------------------+
- 		 	|       NAME         |   		 POSITION	       |
+ 		 	|       NAME         |   	     POSITION	               |
  		 	+--------------------+-----------------------------------------+
   		 	|		     |					       |
  		 	| Towana Wilson      | Project Leader/ Database Administrator  |
