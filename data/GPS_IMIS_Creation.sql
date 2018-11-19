@@ -7,6 +7,25 @@ CREATE DATABASE IF NOT EXISTS `GPS_IMIS`;
 USE `GPS_IMIS`;
 
 -- -----------------------------------------------------
+-- Table `GPS_IMIS`.`users`
+-- This script is responsible for creating The users that interact with GPS_IMIS Database
+-- -----------------------------------------------------
+
+CREATE TABLE `GPS_IMIS`.`users` (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    firstName VARCHAR(17) NOT NULL,
+    lastName VARCHAR(17) NOT NULL,
+    username VARCHAR(15) NOT NULL UNIQUE,
+    dob DATE NOT NULL,
+    sex ENUM('Male', 'Female') NOT NULL,
+    contact VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    position ENUM('Administrator', 'Departments', 'Reception', 'Ministry_Personnel', 'Service_Directorate', 'Civilian_Directorate') NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Inmates`
 -- -----------------------------------------------------
 CREATE TABLE `GPS_IMIS`.`Inmates` (
