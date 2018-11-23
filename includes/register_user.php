@@ -339,7 +339,7 @@ if($_SESSION["position"] !== 'Administrator'){
     <meta charset="UTF-8">
     <title>Register</title>
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles/reg_User_Design.css">
+    <link rel="stylesheet" href="../styles/registerDesign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style type="text/css">
         body{ font: 14px sans-serif; }
