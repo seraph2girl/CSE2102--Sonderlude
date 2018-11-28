@@ -8,11 +8,11 @@ This database dubbed the Inmate Management Information System (IMIS) is necessar
 and will provide faster reporting and information retrieval as well as more precise data management.
 
 
-# Installation
+> # Installation
 
 In order to experience **The IMIS Application** as we intended. You need to follow these Steps:
 
-### Step 1
+## Step 1
 
 Ensure that your System have **Apache, Mysql and PHP and "phpMyAdmin"** installed:
 
@@ -22,7 +22,7 @@ Ensure that your System have **Apache, Mysql and PHP and "phpMyAdmin"** installe
 
 * **Mac OS** [MAMP Installation](https://www.youtube.com/watch?v=I6sTPp779mA&t=382s "Click the link & Follow the Steps") then install [phpMyAdmin](https://www.javatpoint.com/how-to-install-phpmyadmin-on-mac "Click the link & Follow the Steps")
 
-### Step 2
+## Step 2
 
 Install **Git** to complete the following tasks
 
@@ -51,7 +51,7 @@ After installing **Git** Navigate to your **MySQL Server's Default Data Folder**
 
 * **Mac OS** File path ```/Applications/MAMP/htdocs```
 
-### Step 3
+## Step 3
 
 After success Ensure that you are in the **MySQL Server's Default Data Folder** for your Operating System. Then Install **CSE2102--Sonderlude** using ```git clone``` Command
 
@@ -67,7 +67,7 @@ Open "Command Prompt (cmd)" with the "MySQL Server's Default Data File Path", an
 git clone https://github.com/seraph2girl/CSE2102--Sonderlude.git
 ```
 
-### Step 4
+## Step 4
 After installing "CSE2102--Sonderlude" successfully. Open the "CSE2102--Sonderlude" folder and Navigate to the **data** folder there you will see **GPS_IMIS_Creation.sql**:
 
 ![data folder](assets/readme/data_folder.png)
@@ -90,7 +90,7 @@ Navigate to the "Notification Tray" and click on the WAMP icon
 ![GPS_IMIS_Creation.sql](assets/readme/gps_imis_creation.png)
 
 ---
-# Using GPS_IMIS  
+> # Using GPS_IMIS  
 
 After creating the "GPS_IMIS" Database follow steps:
 
