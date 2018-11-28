@@ -32,7 +32,7 @@ Debian-based Distributions:
 Open Terminal and paste the Command
 ```bash
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade && apt dist-upgrade
 sudo apt install git
 ```
 
