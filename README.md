@@ -104,10 +104,10 @@ After creating the "GPS_IMIS" Database follow steps:
 
 #### Sonderlude Development Team
 
-| Name     | Position          |
-| -------- | -------------- |
-| Towana Wilson | Project Leader/ Database Administrator |
-| Kieron Abrigo | UI Developer |
-| Lo-Reese Cummings | QA Leader |
-| Wilton Lawrence | Back-End Developer |
-| Jornel Yearwood | UI Developer |
+| Name     | Position          | Contact |
+| -------- | -------------- | -----------
+| Towana Wilson | Project Leader/ Database Administrator | https://github.com/seraph2girl
+| Kieron Abrigo | UI Developer | https://github.com/KieronShadow
+| Lo-Reese Cummings | QA Leader |  https://github.com/Lo-ReeseCummings
+| Wilton Lawrence | Back-End Developer | https://github.com/Wilton2
+| Jornel Yearwood | UI Developer | https://github.com/Jornelyearwood
