@@ -2,7 +2,7 @@
 // To connect you need to enter your host info
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'your_username');
-define('DB_PASSWORD', 'your_password');
+define('DB_PASSWORD', 'your_password.');
 define('DB_NAME','GPS_IMIS');
 
 /* Script to connect to MySQL database */
