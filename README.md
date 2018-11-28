@@ -100,7 +100,7 @@ After creating the "GPS_IMIS" Database follow steps:
 
 ![connection](assets/readme/connection.png)
 
-* After providing your credentials The Register Page for Administrator only should appear, because the Database is empty and Only a "Administrator" must first be present.
+* After providing your credentials The Register Page for Administrator should only appear, because the Database is empty and Only a "Administrator" must first be present.
 
 #### Sonderlude Development Team
 
