@@ -91,7 +91,7 @@ Navigate to the "Notification Tray" and click on the WAMP icon
 ![GPS_IMIS_Creation.sql](assets/readme/gps_imis_creation.png)
 
 ---
-> # Using GPS_IMIS  ![gps_logo](assets/readme/gps_logo.png)
+> # Using GPS_IMIS 
 
 
 After creating the "GPS_IMIS" Database follow steps:
