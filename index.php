@@ -26,13 +26,13 @@ if ($row!=""){
  }elseif($_SESSION["position"] == 'Reception') {
    header("Location:includes/pages/reception_page.php");
 
- }elseif($_SESSION["position"] == 'Ministry_Personnel'){
+ }elseif($_SESSION["position"] == "Ministry Personnel"){
    header("Location:includes/pages/ministry_personnel_page.php");
 
- }elseif($_SESSION["position"] == 'Service_Directorate'){
+ }elseif($_SESSION["position"] == "Service Directorate"){
    header("Location:includes/pages/service_directorate_page.php");
 
- }elseif($_SESSION["position"] == 'Civilian_Directorate') {
+ }elseif($_SESSION["position"] == "Civilian Directorate") {
    header("Location:includes/pages/civilian_directorate_page.php");
  }
 

@@ -1,4 +1,4 @@
-![Sonderlude Logo](assets/sonderlude_logo.jpeg)
+![Sonderlude Logo](assets/sonderlude_logo.png)
 # Sonderlude Development Inc.
 
 
@@ -7,6 +7,7 @@ GENERAL INFORMATION
 This database dubbed the Inmate Management Information System (IMIS) is necessary for the smooth and efficient management of the Two Thousand plus (2000+) criminal population incarcerated within five (5) locations managed by the Guyana Prison Service (GPS). The IMIS will replace the current inefficient paper based system that are prone to mistakes,
 and will provide faster reporting and information retrieval as well as more precise data management.
 
+---
 
 > # Installation
 
@@ -90,7 +91,8 @@ Navigate to the "Notification Tray" and click on the WAMP icon
 ![GPS_IMIS_Creation.sql](assets/readme/gps_imis_creation.png)
 
 ---
-> # Using GPS_IMIS  
+> # Using GPS_IMIS  ![gps_logo](assets/readme/gps_logo.png)
+
 
 After creating the "GPS_IMIS" Database follow steps:
 
@@ -102,8 +104,29 @@ After creating the "GPS_IMIS" Database follow steps:
 
 ![connection](assets/readme/connection.png)
 
-* After providing your credentials The Register Page for Administrator should only appear, because the Database is empty and Only a "Administrator" must first be present.
+* After providing your credentials. The Register Page for Administrator should only appear, because the Database is empty and Only a "Administrator" must first be present.
 
+## Features
+
+* #### Multi Login Page
+Optionally you can use our predefined GPS_IMIS: **Users**" to explore the GPS_IMIS Database with Different Privileges.
+
+  * Navigate to file path ```CSE2102--Sonderlude/data/GPS_IMIS_Characters.sql```. Then **Copy & Paste** the SQL Code in the the **MySQL Console**
+
+* #### Security
+Our Database cannot survive in the real world if it was not Secure. Due to the demanding requirements The GPS_IMIS supports:
+
+  * **User Constraint:** A User with 'Reception Privileges' cannot access the 'Administrator Page' to gain Administrator Privileges even if they know the 'file path'. Attempting to do so, the User will be redirected to their 'Initial Page with their Default Privileges'.
+
+  * **Password Encryption:** All GPS_IMIS User's password will be Encrypted with a 'Hashed Password'.
+
+* #### User-Friendly Interface
+The GPS_IMIS interface is "straight forward", hence no learning curve needed to use the GPS_IMIS.
+
+* #### Offline Usage
+By default the GPS_IMIS was created to utilize its resources 'locally', hence no 'Internet Connection is Needed' and that also play a role in 'Security'.
+
+---
 ### Sonderlude Development Team
 
 | Name     | Position          | Contact |

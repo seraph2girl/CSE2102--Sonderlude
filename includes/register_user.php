@@ -414,9 +414,9 @@ if($_SESSION["position"] !== 'Administrator'){
                 <option value="1">Administrator</option>
                 <option value="2">Departments</option>
                 <option value="3">Reception</option>
-                <option value="4">Ministry_Personnel</option>
-                <option value="5">Service_Directorate</option>
-                <option value="6">Civilian_Directorate</option>
+                <option value="4">Ministry Personnel</option>
+                <option value="5">Service Directorate</option>
+                <option value="6">Civilian Directorate</option>
               </select>
             </div>
             </div>

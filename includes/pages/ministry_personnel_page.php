@@ -2,7 +2,7 @@
 // Initialize the session
 session_start();
 
-if($_SESSION["position"] !== 'Ministry_Personnel'){
+if($_SESSION["position"] !== "Ministry Personnel"){
   header("Location:../../index.php");
 
 }else{

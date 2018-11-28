@@ -11,7 +11,7 @@ USE `GPS_IMIS`;
 -- This script is responsible for creating The users that interact with GPS_IMIS Database
 -- -----------------------------------------------------
 
-CREATE TABLE `GPS_IMIS`.`users` (
+CREATE TABLE `users` (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     firstName VARCHAR(17) NOT NULL,
     lastName VARCHAR(17) NOT NULL,
@@ -21,14 +21,14 @@ CREATE TABLE `GPS_IMIS`.`users` (
     contact VARCHAR(255) NOT NULL,
     address VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-    position ENUM('Administrator', 'Departments', 'Reception', 'Ministry_Personnel', 'Service_Directorate', 'Civilian_Directorate') NOT NULL,
+    position ENUM('Administrator', 'Departments', 'Reception', "Ministry Personnel", "Service Directorate", "Civilian Directorate") NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Inmates`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Inmates` (
+CREATE TABLE `Inmates` (
   `Inmate_ID` INT NOT NULL AUTO_INCREMENT,
   `LastName` VARCHAR(45) NOT NULL,
   `FirstName` VARCHAR(45) NOT NULL,
@@ -56,7 +56,7 @@ CREATE TABLE `GPS_IMIS`.`Inmates` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Visits`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Visits` (
+CREATE TABLE `Visits` (
   `Visit_ID` INT NOT NULL AUTO_INCREMENT,
   `Inmate_ID` INT NOT NULL,
   `ID_Number` INT(9) NOT NULL,
@@ -75,7 +75,7 @@ CREATE TABLE `GPS_IMIS`.`Visits` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Discipline`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Discipline` (
+CREATE TABLE `Discipline` (
   `Discipline_ID` INT NOT NULL AUTO_INCREMENT,
   `Inmate_ID` INT NOT NULL,
   `Ajudicating_Officer` VARCHAR(45) NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE `GPS_IMIS`.`Discipline` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Courtdate`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Courtdate` (
+CREATE TABLE `Courtdate` (
   `Court_ID` INT NOT NULL AUTO_INCREMENT,
   `Inmate_ID` INT NOT NULL,
   `Remand_ID` INT NOT NULL,
@@ -103,7 +103,7 @@ CREATE TABLE `GPS_IMIS`.`Courtdate` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Transfers`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Transfers` (
+CREATE TABLE `Transfers` (
   `Transfer_ID` INT NOT NULL,
   `Inmate_ID` INT NOT NULL,
   `Date` DATE NOT NULL,
@@ -121,7 +121,7 @@ CREATE TABLE `GPS_IMIS`.`Transfers` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Incidents`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Incidents` (
+CREATE TABLE `Incidents` (
   `Incident_ID` INT NOT NULL AUTO_INCREMENT,
   `Inmate_ID` INT NOT NULL,
   `Statement` VARCHAR(200) NOT NULL,
@@ -139,7 +139,7 @@ CREATE TABLE `GPS_IMIS`.`Incidents` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Medical`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Medical` (
+CREATE TABLE `Medical` (
   `Med_ID` INT NOT NULL AUTO_INCREMENT,
   `Inmate_ID` INT NOT NULL,
   `Examining_Doctor` VARCHAR(45) NOT NULL,
@@ -157,7 +157,7 @@ CREATE TABLE `GPS_IMIS`.`Medical` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Remand_Record`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Remand_Record` (
+CREATE TABLE `Remand_Record` (
   `Remand_ID` INT NOT NULL,
   `Inmate_ID` INT NOT NULL,
   `Offence` VARCHAR(200) NOT NULL,
@@ -180,7 +180,7 @@ CREATE TABLE `GPS_IMIS`.`Remand_Record` (
 -- -----------------------------------------------------
 -- Table `GPS_IMIS`.`Convicted_Record`
 -- -----------------------------------------------------
-CREATE TABLE `GPS_IMIS`.`Convicted_Record` (
+CREATE TABLE `Convicted_Record` (
   `Convicted_ID` INT NOT NULL,
   `Inmate_ID` INT NOT NULL,
   `Case_Jacket_Number` INT NOT NULL,

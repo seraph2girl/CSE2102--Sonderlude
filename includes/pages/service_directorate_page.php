@@ -2,7 +2,7 @@
 // Initialize the session
 session_start();
 
-if($_SESSION["position"] !== 'Service_Directorate'){
+if($_SESSION["position"] !== "Service Directorate"){
   header("Location:../../index.php");
 
 }else{

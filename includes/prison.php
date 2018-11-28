@@ -31,7 +31,7 @@ if (!empty($LastName) || !empty($FirstName) || !empty($Date_Of_Birth) || !empty(
     } else {
      $SELECT = "SELECT Contact From inmates Where Contact = ? limit 1";
      $INSERT = "INSERT Into inmates (LastName, FirstName, Date_Of_Birth, Address, Occupation, Marital_Status, Children, Literacy, Height, Weight, Colour, Identification_Marks, Facial_Structure, Eye_Colour, Tattoos, Next_Of_Kin, Next_Of_Kin_Address, Next_Of_Kin_Relationship, Contact) values(?,?, ?, ?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-    
+
      $stmt = $conn->prepare($SELECT);
 	 $stmt->bind_param("i", $Contact);
      $stmt->execute();
