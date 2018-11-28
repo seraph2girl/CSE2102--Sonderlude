@@ -20,7 +20,7 @@ Ensure that your System have **Apache, Mysql and PHP and "phpMyAdmin"** installe
 
 * **Windows OS** [WAMP Server Installation](https://sourceforge.net/projects/wampserver/ "Click the link & Follow the Steps") then install [phpMyAdmin](https://www.phpmyadmin.net/downloads/ "Click the link & Follow the Steps")
 
-* **Mac OS** [MAMP Installation](https://www.youtube.com/watch?v=I6sTPp779mA&t=382s "Click the link & Follow the Steps")
+* **Mac OS** [MAMP Installation](https://www.youtube.com/watch?v=I6sTPp779mA&t=382s "Click the link & Follow the Steps") then install [phpMyAdmin](https://www.javatpoint.com/how-to-install-phpmyadmin-on-mac "Click the link & Follow the Steps")
 
 ### Step 2
 
@@ -89,7 +89,9 @@ Navigate to the "Notification Tray" and click on the WAMP icon
 
 ![GPS_IMIS_Creation.sql](assets/readme/gps_imis_creation.png)
 
-# Using GPS_IMIS   ![GPS_IMIS_Creation.sql](assets/Guyana_Prison_Service_logo.png)
+---
+# Using GPS_IMIS  
+
 After creating the "GPS_IMIS" Database follow steps:
 
 * Open your "Web Browser" and type ```localhost/CSE2102--Sonderlude/```
@@ -102,7 +104,7 @@ After creating the "GPS_IMIS" Database follow steps:
 
 * After providing your credentials The Register Page for Administrator should only appear, because the Database is empty and Only a "Administrator" must first be present.
 
-#### Sonderlude Development Team
+### Sonderlude Development Team
 
 | Name     | Position          | Contact |
 | -------- | -------------- | -----------
